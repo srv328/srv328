@@ -1,6 +1,4 @@
 # 💫 Hello, World! I`m Roma
-🔭 I'm currently working on<br>Thesis projects and freelance development orders — juggling code, deadlines, and client expectations.<br><br>👯 I'm looking to collaborate on<br>Anything that gets me closer to the fabled "money button" — automation, MVPs, monetizable ideas welcome.<br><br>🤝 I'm looking for help with<br>Finding scalable and profitable side projects and building systems that earn while I sleep.<br><br>🌱 I'm currently learning<br>New frontend/backend stacks like NestJS, Next.js, and Vue — always expanding the toolbox.<br><br>⚡ Fun fact<br>Ketchup is also a vegetable.
-
 
 ## 🌐 Socials:
 [![srv328.tech](https://img.shields.io/badge/srv328.tech-000000.svg?logo=react&logoColor=white)](https://srv328.tech)
