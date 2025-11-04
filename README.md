@@ -59,16 +59,15 @@ console.log(Roma.sayHi());
 ```
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D GitHub Contribs (incl. private)" />
+
+| Статистика коммитов | Общая статистика |
+| :---: | :---: |
+| ![](https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true) | ![](https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true) |
+
 </div>
-<br><br>
-<div align="center">
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true" />
-  </div>
-</div>
-<br><br>
+
+<br>
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&#x26;theme=tokyonight" alt="Random Dev Quote">
 </div>	
+
