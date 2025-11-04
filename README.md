@@ -3,47 +3,63 @@ const Roma = {
   frontend: {
     core: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript'],
     frameworks: {
-      React: { emoji: '⚛️', mastery: 95, projects: '10+' },
-      NextJS: { emoji: '⚡', mastery: 90 },
-      Nuxt3: { emoji: '🟩', mastery: 85 },
-      Vue: { emoji: '💚', mastery: 85 },
+      React: { primary: true, mastery: 80, projects: '>10' },
+      NextJS: { mastery: 70, projects: '3' },
+      Vue: { mastery: 70, projects: '3' },
+      Nuxt3: { mastery: 70, projects: '2' },
     },
     styling: ['Tailwind', 'Bootstrap', 'MUI', 'Stylus'],
     design: ['Figma', 'UI/UX', 'Responsive', 'Animation'],
+    tools: {
+      packageManagers: ['NPM', 'Yarn', 'PNPM'],
+      bundlers: ['Webpack', 'Vite', 'Gulp'],
+      linting: ['ESLint', 'Prettier'],
+    },
   },
   backend: {
-    NodeJS: ['Express', 'NestJS', 'Socket.io', 'JWT'],
-    Python: ['Django', 'FastAPI', 'Flask', 'Web3.py'],
-    NET: ['.NET Core', 'C#', 'REST API'],
-    auth: ['JWT', 'OAuth', 'Session', 'SSO'],
+    NodeJS: {
+      primary: true,
+      frameworks: ['Express', 'NestJS'],
+      libs: ['Socket.io', 'multer', 'bcrypt'],
+    },
+    Python: {
+      frameworks: ['FastAPI', 'Flask'],
+      tools: ['NumPy', 'Pandas', 'Matplotlib'],
+      bots: ['AIOgram v3', 'Telethon'],
+    },
+    auth: ['JWT', 'Session'],
   },
   databases: {
-    SQL: ['PostgreSQL', 'MySQL', 'SQLite', 'MariaDB', 'MS SQL'],
-    NoSQL: ['MongoDB', 'Redis'],
-    joke: ['1C:Предприятие'], //все равно это никому не нужно
+    SQL: {
+    systems: [
+      { name: 'MySQL', primary: true },
+      { name: 'SQLite' },
+      { name: 'MariaDB' },
+    ],
   },
-  ai: {
-    libraries: ['TensorFlow', 'PyTorch', 'scikit-learn', 'LangChain'],
-    data: ['NumPy', 'Pandas', 'Matplotlib', 'SciPy', 'NLP'],
-    bots: ['AIOgram', 'Telegram Bots'],
+  NoSQL: {
+    systems: [
+      { name: 'MongoDB', primary: true },
+      { name: 'Redis' },
+    ],
+  },
+    legacy: ['1C:Предприятие'], // это было давно и неправда
   },
   devops: {
-    containers: 'Docker',
-    ci_cd: 'GitHub Actions',
-    api: ['Postman', 'Swagger'],
+    automation: ['GitHub Actions', 'PM2'],
+    servers: ['Nginx'],
+    api: ['Swagger', 'Postman'],
   },
-  tools: [
-    'Git', 'NPM', 'NVM', 'Yarn', 'Webpack', 'Gulp',
-    'ESLint', 'Prettier', 'Nodemon', 'PowerShell', 'Bash', 'PM2',
-  ],
-  pm: ['Jira', 'Trello', 'Notion'],
-  extra: {
-    web3: ['Web3.js', 'Web3.py', 'Smart Contracts'],
-    game: ['PyGame', 'Qt'],
-    infra: ['Nginx', 'Cisco', 'Windows Terminal'],
-    soft: ['Markdown', 'Technical Writing'],
+  tools: {
+    os: ['PowerShell', 'Bash'],
+    versionControl: ['Git'],
+    workflows: ['Nodemon'],
+    documentation: ['Markdown', 'Technical Writing'],
   },
-  architecture: ['Microservices', 'Clean Code'],
+  concepts: {
+    apiStyles: ['REST'],
+    software: ['SOLID', 'OOP', 'DRY', 'KISS'],
+  },
   education: [
     {
       university: 'Irkutsk State University (ISU)',
@@ -58,18 +74,19 @@ const Roma = {
       years: '2021-2025',
     },
   ],
-  funFact: 'на 3ем курсе бакалавра за 2 недели сделал 10 курсовых с документацией',
+  funFact: 'На 3-м курсе бакалавра за 2 недели сделал 10 курсовых с документацией',
   contact: {
     telegram: '@shevelev_rv',
     email: 'shevelev.rv328@gmail.com',
     site: 'https://srv328.tech',
   },
-  sayHi: function() {
+  sayHi() {
     return "Thanks for visiting! Let's build something awesome together. ☄️";
   },
 };
 
 console.log(Roma.sayHi());
+
 ```
 
 <div align="center">
@@ -82,7 +99,6 @@ console.log(Roma.sayHi());
 
 </div>
 
-<br>
 <div align="center" style="margin: 40px 0;">
   <img 
     src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" 
