@@ -59,15 +59,42 @@ console.log(Roma.sayHi());
 ```
 
 <div align="center">
-
-| Статистика коммитов | Общая статистика |
-| :---: | :---: |
-| ![](https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true) | ![](https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true) |
-
+  <div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  ">
+    <img 
+      height="180" 
+      alt="GitHub Streak" 
+      src="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true"
+      style="max-width: 100%; height: auto;"
+    />
+    <img 
+      height="180" 
+      alt="GitHub Stats" 
+      src="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true"
+      style="max-width: 100%; height: auto;"
+    />
+  </div>
 </div>
 
 <br>
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&#x26;theme=tokyonight" alt="Random Dev Quote">
-</div>	
+<div align="center" style="margin: 40px 0;">
+  <img 
+    src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" 
+    alt="Random Dev Quote"
+    style="
+      max-width: 100%;
+      height: auto;
+      width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    "
+  />
+</div>
 
