@@ -59,27 +59,18 @@ console.log(Roma.sayHi());
 ```
 
 <div align="center">
-  <div style="
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin: 30px 0;
-  ">
+  <a href="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true">
     <img 
-      height="180" 
+      height="135" 
       alt="GitHub Streak" 
       src="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true"
-      style="max-width: 100%; height: auto;"
-    />
-    <img 
-      height="180" 
+    /></a>
+  <a href="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true"><img 
+      height="135" 
       alt="GitHub Stats" 
       src="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true"
-      style="max-width: 100%; height: auto;"
-    />
+    /></a>
+    
   </div>
 </div>
 
