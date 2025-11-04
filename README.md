@@ -48,7 +48,7 @@ const Roma = {
     {
       university: 'Irkutsk State University (ISU)',
       degree: "Master's Degree",
-      major: 'Applied Informatics and Mathematical Modeling (in English)',
+      major: 'Applied Informatics and Mathematical Modeling',
       years: '2025-2027',
     },
     {
