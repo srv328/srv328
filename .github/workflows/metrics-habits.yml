@@ -1,8 +1,8 @@
-name: Metrics – Habits (private + Irkutsk)
+name: Metrics – Habits (Irkutsk + Private)
 
 on:
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 18 * * *"     
   workflow_dispatch:
 
 permissions:
@@ -12,22 +12,18 @@ jobs:
   habits:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
 
-      - name: Generate habits SVG
+      - name: Generate habits
         uses: lowlighter/metrics@latest
         with:
           filename: assets/metrics.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""                    
+          base: ""
           plugin_habits: yes
-          plugin_habits_from: 500     
-          plugin_habits_days: 30      
+          plugin_habits_from: 200             
+          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph  
-          plugin_habits_trim: yes
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 1%
-          config_timezone: Asia/Irkutsk  
+          plugin_habits_charts_type: graph
+          config_timezone: Asia/Irkutsk      
