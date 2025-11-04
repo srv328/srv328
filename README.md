@@ -73,19 +73,13 @@ console.log(Roma.sayHi());
 ```
 
 <div align="center">
-  <a href="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true">
-    <img 
-      height="135" 
-      alt="GitHub Streak" 
-      src="https://github-readme-streak-stats.herokuapp.com/?user=srv328&theme=react&hide_border=true"
-    /></a>
-  <a href="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true"><img 
-      height="135" 
-      alt="GitHub Stats" 
-      src="https://github-readme-stats.vercel.app/api?username=srv328&theme=react&hide_border=true&include_all_commits=true&count_private=true"
-    /></a>
-    
-  </div>
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D GitHub Contribs (incl. private)" />
+</div>
+
+<div align="center">
+  
+![](https://nirzak-streak-stats.vercel.app/?user=srv328&theme=react&hide_border=false)
+
 </div>
 
 <br>
