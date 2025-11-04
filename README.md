@@ -31,18 +31,18 @@ const Roma = {
   },
   databases: {
     SQL: {
-    systems: [
-      { name: 'MySQL', primary: true },
-      { name: 'SQLite' },
-      { name: 'MariaDB' },
-    ],
-  },
-  NoSQL: {
-    systems: [
-      { name: 'MongoDB', primary: true },
-      { name: 'Redis' },
-    ],
-  },
+      systems: [
+        { name: 'MySQL', primary: true },
+        { name: 'SQLite' },
+        { name: 'MariaDB' },
+      ],
+    },
+    NoSQL: {
+      systems: [
+        { name: 'MongoDB', primary: true },
+        { name: 'Redis' },
+      ],
+    },
     legacy: ['1C:Предприятие'], // это было давно и неправда
   },
   devops: {
