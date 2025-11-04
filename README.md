@@ -44,6 +44,20 @@ const Roma = {
     soft: ['Markdown', 'Technical Writing'],
   },
   architecture: ['Microservices', 'Clean Code'],
+  education: [
+    {
+      university: 'Irkutsk State University (ISU)',
+      degree: "Master's Degree",
+      major: 'Applied Informatics and Mathematical Modeling (in English)',
+      years: '2025-2027',
+    },
+    {
+      university: 'Far Eastern Federal University (FEFU)',
+      degree: "Bachelor's Degree",
+      major: 'Software Engineering',
+      years: '2021-2025',
+    },
+  ],
   funFact: 'на 3ем курсе бакалавра за 2 недели сделал 10 курсовых с документацией',
   contact: {
     telegram: '@shevelev_rv',
