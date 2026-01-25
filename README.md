@@ -28,11 +28,13 @@ const Roma = {
       bots: ['AIOgram v3', 'Telethon'],
     },
     auth: ['JWT', 'Session'],
+    orm: ['Prisma'],
   },
   databases: {
     SQL: {
       systems: [
         { name: 'MySQL', primary: true },
+        { name: 'PostgreSQL' },
         { name: 'SQLite' },
         { name: 'MariaDB' },
       ],
