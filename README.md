@@ -73,12 +73,6 @@ const Roma = {
       major: 'IT Product Manager',
       years: '2024-2025',
     },
-    {
-      university: 'Irkutsk State University (ISU)',
-      degree: "Master's Degree",
-      major: 'Applied Informatics and Mathematical Modeling',
-      years: '2025-2027',
-    },
   ],
   funFact: 'На 3-м курсе бакалавра за 2 недели сделал 10 курсовых с документацией',
   contact: {
