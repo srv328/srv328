@@ -96,22 +96,6 @@ console.log(Roma.sayHi());
 </div>
 
 <div align="center">
-  
-![](https://nirzak-streak-stats.vercel.app/?user=srv328&theme=react&hide_border=false)
-
-</div>
-
-<div align="center" style="margin: 40px 0;">
-  <img 
-    src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" 
-    alt="Random Dev Quote"
-    style="
-      max-width: 100%;
-      height: auto;
-      width: 600px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    "
-  />
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=srv328&theme=highcontrast&hide_border=true" alt="GitHub Streak" /></a>
 </div>
 
