@@ -1,18 +1,29 @@
 ```js
 const Roma = {
   frontend: {
-    core: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript'],
+    core: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'TypeScript'],
     frameworks: {
       React: { primary: true, mastery: 80, projects: '>10' },
-      NextJS: { mastery: 70, projects: '3' },
-      Vue: { mastery: 70, projects: '3' },
-      Nuxt3: { mastery: 70, projects: '2' },
+      NextJS: { mastery: 70, projects: '2+' }, // Post Pioneer, Panda Avto
+      Vue: { mastery: 70, projects: '3+' },
+      Nuxt: { mastery: 70, projects: '3' }, // Sociolit, Interactive Avant-garde, Prosimetron
     },
-    styling: ['Tailwind', 'Bootstrap', 'MUI', 'Stylus'],
+    state: ['Redux Toolkit', 'Pinia', 'RTK Query'],
+    styling: [
+      'Tailwind CSS',
+      'Bootstrap',
+      'MUI',
+      'Vuetify',
+      'styled-components',
+      'Sass/SCSS',
+    ],
+    uiMotion: ['Framer Motion', 'GSAP', 'Swiper', 'Lenis'],
     design: ['Figma', 'UI/UX', 'Responsive', 'Animation'],
+    libs: ['Axios', 'Zod', 'React Router', 'TipTap', 'Plotly.js'],
+    testing: ['Vitest', 'Playwright'],
     tools: {
       packageManagers: ['NPM', 'Yarn', 'PNPM'],
-      bundlers: ['Webpack', 'Vite', 'Gulp'],
+      bundlers: ['Vite', 'Webpack', 'Gulp'],
       linting: ['ESLint', 'Prettier'],
     },
   },
@@ -20,15 +31,16 @@ const Roma = {
     NodeJS: {
       primary: true,
       frameworks: ['Express', 'NestJS'],
-      libs: ['Socket.io', 'multer', 'bcrypt'],
+      libs: ['Prisma', 'Mongoose', 'BullMQ', 'multer', 'bcrypt', 'Nodemailer', 'Passport/JWT'],
     },
     Python: {
       frameworks: ['FastAPI', 'Flask'],
       tools: ['NumPy', 'Pandas', 'Matplotlib'],
       bots: ['AIOgram v3', 'Telethon'],
     },
-    auth: ['JWT', 'Session'],
-    orm: ['Prisma'],
+    auth: ['JWT', 'Session', 'Cookies'],
+    orm: ['Prisma', 'Mongoose', 'mysql2'],
+    media: ['FFmpeg'],
   },
   databases: {
     SQL: {
@@ -36,7 +48,6 @@ const Roma = {
         { name: 'MySQL', primary: true },
         { name: 'PostgreSQL' },
         { name: 'SQLite' },
-        { name: 'MariaDB' },
       ],
     },
     NoSQL: {
@@ -48,8 +59,10 @@ const Roma = {
     legacy: ['1C:Предприятие'], // это было давно и неправда
   },
   devops: {
+    containers: ['Docker', 'Docker Compose'],
     automation: ['GitHub Actions', 'PM2'],
-    servers: ['Nginx'],
+    servers: ['Nginx', 'Traefik', 'Linux VPS'],
+    monitoring: ['Grafana', 'Loki'],
     api: ['Swagger', 'Postman'],
   },
   tools: {
@@ -60,8 +73,14 @@ const Roma = {
   },
   concepts: {
     apiStyles: ['REST'],
+    architecture: ['Feature-Sliced Design', 'Microservices'],
     software: ['SOLID', 'OOP', 'DRY', 'KISS'],
   },
+  highlights: [
+    'Post Pioneer — full-stack SaaS (Next.js, NestJS, BullMQ, Docker, GitHub Actions)',
+    'Commercial sites: Vlad Auto, Panda Avto, Kammarket, RIK Real Estate',
+    'HSE research UIs: Sociolit, Interactive Avant-garde, Prosimetron',
+  ],
   education: [
     {
       university: 'Far Eastern Federal University (FEFU)',
@@ -71,7 +90,7 @@ const Roma = {
     },
     {
       university: 'Far Eastern Federal University (FEFU)',
-      degree: "additional education",
+      degree: 'Additional education',
       major: 'IT Product Manager',
       years: '2024-2025',
     },
@@ -80,7 +99,8 @@ const Roma = {
   contact: {
     telegram: '@shevelev_rv',
     email: 'shevelev.rv328@gmail.com',
-    site: 'https://srv328.tech',
+    site: 'https://srv328.ru',
+    github: 'https://github.com/srv328',
   },
   sayHi() {
     return "Thanks for visiting! Let's build something awesome together. ☄️";
