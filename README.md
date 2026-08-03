@@ -9,6 +9,9 @@ const Roma = {
       Nuxt: { mastery: 70, projects: '3' }, // Sociolit, Interactive Avant-garde, Prosimetron
     },
     state: ['Redux Toolkit', 'Pinia', 'RTK Query'],
+    routing: ['React Router', 'Vue Router'],
+  },
+  ui: {
     styling: [
       'Tailwind CSS',
       'Bootstrap',
@@ -17,21 +20,24 @@ const Roma = {
       'styled-components',
       'Sass/SCSS',
     ],
-    uiMotion: ['Framer Motion', 'GSAP', 'Swiper', 'Lenis'],
+    motion: ['Framer Motion', 'GSAP', 'Swiper', 'Lenis'],
+    libs: ['Axios', 'Zod', 'Plotly.js', 'TipTap'],
     design: ['Figma', 'UI/UX', 'Responsive', 'Animation'],
-    libs: ['Axios', 'Zod', 'React Router', 'TipTap', 'Plotly.js'],
-    testing: ['Vitest', 'Playwright'],
-    tools: {
-      packageManagers: ['NPM', 'Yarn', 'PNPM'],
-      bundlers: ['Vite', 'Webpack', 'Gulp'],
-      linting: ['ESLint', 'Prettier'],
-    },
   },
   backend: {
     NodeJS: {
       primary: true,
       frameworks: ['Express', 'NestJS'],
-      libs: ['Prisma', 'Mongoose', 'BullMQ', 'multer', 'bcrypt', 'Nodemailer', 'Passport/JWT'],
+      libs: [
+        'Prisma',
+        'Mongoose',
+        'BullMQ',
+        'multer',
+        'bcrypt',
+        'Nodemailer',
+        'Passport/JWT',
+        'mysql2',
+      ],
     },
     Python: {
       frameworks: ['FastAPI', 'Flask'],
@@ -56,16 +62,20 @@ const Roma = {
         { name: 'Redis' },
       ],
     },
-    legacy: ['1C:Предприятие'], // это было давно и неправда
+    legacy: ['1C:Предприятие'],
   },
   devops: {
     containers: ['Docker', 'Docker Compose'],
     automation: ['GitHub Actions', 'PM2'],
     servers: ['Nginx', 'Traefik', 'Linux VPS'],
     monitoring: ['Grafana', 'Loki'],
-    api: ['Swagger', 'Postman'],
   },
   tools: {
+    packageManagers: ['NPM', 'Yarn', 'PNPM'],
+    bundlers: ['Vite', 'Webpack', 'Gulp'],
+    testing: ['Vitest', 'Playwright'],
+    api: ['Postman', 'Swagger'],
+    linting: ['ESLint', 'Prettier'],
     os: ['PowerShell', 'Bash'],
     versionControl: ['Git'],
     workflows: ['Nodemon'],
@@ -78,7 +88,7 @@ const Roma = {
   },
   highlights: [
     'Post Pioneer — full-stack SaaS (Next.js, NestJS, BullMQ, Docker, GitHub Actions)',
-    'Commercial sites: Vlad Auto, Panda Avto, Kammarket, RIK Real Estate',
+    'Commercial: Vlad Auto, Panda Avto, Kammarket, RIK Real Estate, SUP 125, OurVision',
     'HSE research UIs: Sociolit, Interactive Avant-garde, Prosimetron',
   ],
   education: [
