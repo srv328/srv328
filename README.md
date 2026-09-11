@@ -62,6 +62,7 @@ const Roma = {
         { name: 'Redis' },
       ],
     },
+    legacy: ['1C:Предприятие'],
   },
   devops: {
     containers: ['Docker', 'Docker Compose'],
