@@ -4,7 +4,7 @@ const Roma = {
     core: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'TypeScript'],
     frameworks: {
       React: { primary: true, mastery: 80, projects: '>10' },
-      NextJS: { mastery: 70, projects: '2+' }, // Post Pioneer, Panda Avto
+      NextJS: { mastery: 70, projects: '3+' }, // Post Pioneer, Panda Avto, Marine Grace
       Vue: { mastery: 70, projects: '3+' },
       Nuxt: { mastery: 70, projects: '3' }, // Sociolit, Interactive Avant-garde, Prosimetron
     },
@@ -62,7 +62,6 @@ const Roma = {
         { name: 'Redis' },
       ],
     },
-    legacy: ['1C:Предприятие'],
   },
   devops: {
     containers: ['Docker', 'Docker Compose'],
@@ -86,10 +85,17 @@ const Roma = {
     architecture: ['Feature-Sliced Design', 'Microservices'],
     software: ['SOLID', 'OOP', 'DRY', 'KISS'],
   },
+  work: [
+    { company: 'HSE University', role: 'Frontend Developer', years: '2025–present' },
+    { company: 'ИП Осипов В.О.', role: 'Full-stack Developer', years: '2026' },
+    { company: 'DROPIT', role: 'Full-stack Developer', years: '2024–2025' },
+    { company: 'Freelance', role: 'Full-stack Developer' },
+  ],
   highlights: [
-    'Post Pioneer — full-stack SaaS (Next.js, NestJS, BullMQ, Docker, GitHub Actions)',
-    'Commercial: Vlad Auto, Panda Avto, Kammarket, RIK Real Estate, SUP 125, OurVision',
-    'HSE research UIs: Sociolit, Interactive Avant-garde, Prosimetron',
+    'IE Osipov V.O. — Post Pioneer: offer marketplace for blogger ads, link shortener, BullMQ',
+    'HSE — Sociolit, Interactive Avant-garde, Prosimetron',
+    'DROPIT — Kammarket, RIK Real Estate, OurVision',
+    'Freelance — Vlad Auto, Panda Avto, Marine Grace, SUP 125',
   ],
   education: [
     {
@@ -118,14 +124,4 @@ const Roma = {
 };
 
 console.log(Roma.sayHi());
-
 ```
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D GitHub Contribs (incl. private)" />
-</div>
-
-<div align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=srv328&theme=highcontrast&hide_border=true" alt="GitHub Streak" /></a>
-</div>
-
