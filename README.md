@@ -125,3 +125,12 @@ const Roma = {
 
 console.log(Roma.sayHi());
 ```
+
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D GitHub Contribs (incl. private)" />
+</div>
+
+<div align="center">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=srv328&theme=highcontrast&hide_border=true" alt="GitHub Streak" /></a>
+</div>
